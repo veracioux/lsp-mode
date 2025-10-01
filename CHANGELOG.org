@@ -42,6 +42,7 @@
   * Add support for [[https://github.com/tombi-toml/tombi][Tombi language server]] (TOML language).
   * Make lsp-headerline--check-breadcrumb public
   * Added Odin langauge server support [[https://github.com/DanielGavin/ols][ols]]
+  * Fix bug in lsp-odin where ~f-join~ collapses double slashes. Using ~format~ instead.
 
 ** 9.0.0
   * Add language server config for QML (Qt Modeling Language) using qmlls.
@@ -228,6 +229,7 @@
   * Add support for signatureHelp using ~posframe~. #1999
   * Add ~iedit~ integration. #2478
   * Add client for Verible SystemVerilog language Server ([[https://github.com/chipsalliance/verible]])
+  * Add support for per-project Beancount initialization-options
 
 ** Release 7.0.1
   * Introduced ~lsp-diagnostics-mode~.
